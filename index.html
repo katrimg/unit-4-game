@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Crystal Collector</title>
 
 </head>
 
 <body>
 
-    <div class="container text-white" style="background-color:white;">
+    <div class="container text-white">
 
-        <div class="row" style="height:50px; width: 350px; background-color: orange;">
-            <h1>CrystalsCollector!</h1>
+        <div class="row" id="intro" style="height:50px; width: 350px;">
+            <h1>Crystal Collector!</h1>
         </div>
-        <br>
-        <div class="row" style="height: 300px; width: 500px; background-color: pink; color: green;">
+
+        <div class="row" id ="info" style="height: 350px; width: 600px; background-color: pink; color: green;">
             <p>You will be given a random number at the start of the game.</p>
             <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
                 score.
@@ -31,10 +32,10 @@
             <p>Each time when the game starts, the game will change the values of each crystal.</p>
         </div>
         <br>
-        <div class="row" style="height: 200px; width: 300px; background-color: white;">
+        <div class="row" style="height: 180px; width: 600px; background-color: white;">
             <div class="col" style="background-color: green;">
                 <div>
-                    <p id="number-to-get" class="text-center"></p>
+                    <h2 id="number-to-get" class="text-center"></h2>
                 </div>
             </div>
             <div class="col" style="background-color:palegreen;">
@@ -49,7 +50,7 @@
             </div>
         </div>
         <br>
-        <div class="row" style="height: 50px; width: 400px;">
+        <div class="row" style="height: 50px; width: 600px;">
             <div class="buttons">
                 <button class="crystal" id="crystal1">
                     <img src="assets/images/crystal1.jpg" / style="width:50px;">
@@ -66,12 +67,12 @@
             </div>
         </div>
         <br>
-        <div class="row" style="height: 30px; width: 300px; background-color: blue;">
-            <p>Your total score is:</p>
+        <div class="row" style="height: 40px; width: 600px; background-color: blue;">
+            <h3>Your total score is:</h3>
 
         </div>
-        <br>
-        <div class="row" style="height: 50px; width: 300px; background-color: blue;">
+       
+        <div class="row" style="height: 40px; width: 600px; background-color: blue;">
             <div>
                 <p id="total-score" class="text-center"></p>
             </div>
