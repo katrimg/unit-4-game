@@ -17,7 +17,7 @@ $(document).ready(function() {
     $("#loss-count").text(losses);
     
     function reset() {
-        random = Math.floor(Math.random()*102+19);
+        random = Math.floor(Math.random()*120+19);
         console.log(random);
         $("#number-to-get").text(random);
         var num1 = Math.floor(Math.random()*12+1);
