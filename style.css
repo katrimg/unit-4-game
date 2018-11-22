@@ -3,7 +3,13 @@ body {
 }
 
 #intro{
+    margin:auto;
     margin-bottom:5px;
+    
+}
+
+#info, #scores{
+    margin:auto;
 }
 
 h2{
